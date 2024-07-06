@@ -1,0 +1,13 @@
+{
+    "name": "@lee-gyu/wasm-lib",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "wasm-pack build --target web --out-name index --out-dir ./dist"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

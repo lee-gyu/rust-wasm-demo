@@ -1,16 +1,24 @@
 {
-  "name": "rust-wasm-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "workspaces": [
-    "packages/*",
-    "packages/wasm-lib/pkg"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "rust-wasm-demo",
+    "version": "1.0.0",
+    "description": "",
+    "engines": {
+        "node": "^20.0.0"
+    },
+    "packageManager": "pnpm@9.4.0",
+    "main": "index.js",
+    "workspaces": [
+        "packages/*",
+        "example/"
+    ],
+    "scripts": {
+        "dev": "turbo dev"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.11.25",
+        "turbo": "^2.0.6"
+    }
 }

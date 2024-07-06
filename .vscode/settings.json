@@ -1,0 +1,8 @@
+{
+    "cSpell.ignoreWords": [
+        "bindgen"
+    ],
+    "rust-analyzer.linkedProjects": [
+        "packages/wasm-lib/Cargo.toml"
+    ],
+}
